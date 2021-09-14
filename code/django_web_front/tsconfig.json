@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"esModuleInterop": true,
+		"noImplicitAny": false,
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"allowJs": true,
+		"outDir": "dist",
+		"incremental": true,
+		"baseUrl": "./",
+		"paths": {},
+		"resolveJsonModule": true,
+		"strictNullChecks": false,
+		"tsBuildInfoFile": ".tsbuildinfo"
+	},
+	"include": [
+		"src",
+	],
+	"exclude": [
+		"dist",
+	],
+	// "files": [
+	// ]
+}
